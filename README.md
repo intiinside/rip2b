@@ -119,6 +119,6 @@ streamlit run app.py
 
 ---
 
-**Nota sobre la Evaluación:** Este sistema cumple con los requerimientos técnicos de indexación multimodal, recuperación, re-ranking y búsqueda conversacional con memoria. El análisis completo se encuentra en [data/informeTecnicoRIP2B.pdf](https://www.google.com/search?q=data/informeTecnicoRIP2B.pdf).
+**Nota sobre la Evaluación:** Este sistema cumple con los requerimientos técnicos de indexación multimodal, recuperación, re-ranking y búsqueda conversacional con memoria. El análisis completo se encuentra en [data/informeTecnicoRIP2B.pdf](data/informeTecnicoRIP2B.pdf).
 
 ---
