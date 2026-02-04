@@ -60,7 +60,7 @@ Recomendación:
 
     
     # Generar
-    model = genai.GenerativeModel("models/gemini-2.5-pro")
+    model = genai.GenerativeModel("models/gemini-2.5-flash")
     response = model.generate_content(prompt)
     
     return response.text

@@ -498,7 +498,7 @@ def main():
                     st.session_state.state["resultados"] = resultados_final
                     st.session_state.state["query"] = query
 
-            '''    # --- Generar recomendación IA (solo si hay api_key) ---
+                # --- Generar recomendación IA (solo si hay api_key) ---
             if api_key:
                     respuesta = generar_recomendacion(query, resultados_final, api_key)
                     st.session_state.state["respuesta_ia"] = respuesta
@@ -510,7 +510,7 @@ def main():
         # --- Mostrar recomendación IA arriba de los resultados ---
         if st.session_state.state.get("respuesta_ia") and st.session_state.state.get("resultados") is not None:
             st.markdown("### 🧠 Recomendación IA")
-            st.info(st.session_state.state["respuesta_ia"])'''
+            st.info(st.session_state.state["respuesta_ia"])
 
 
  
@@ -567,7 +567,7 @@ def main():
                     st.session_state.state["resultados"] = resultados_final
                     st.session_state.state["query"] = "🖼️ Búsqueda por imagen"
                     
-                '''     # --- Generar recomendación IA (solo si hay api_key) ---
+                     # --- Generar recomendación IA (solo si hay api_key) ---
                 if api_key:
                     respuesta = generar_recomendacion(query, resultados_final, api_key)
                     st.session_state.state["respuesta_ia"] = respuesta
@@ -579,7 +579,7 @@ def main():
         # --- Mostrar recomendación IA arriba de los resultados ---
         if st.session_state.state.get("respuesta_ia") and st.session_state.state.get("resultados") is not None:
             st.markdown("### 🧠 Recomendación IA")
-            st.info(st.session_state.state["respuesta_ia"])'''
+            st.info(st.session_state.state["respuesta_ia"])
 
 
         # ===================== MOSTRAR RESULTADOS =====================
