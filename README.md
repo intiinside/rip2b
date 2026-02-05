@@ -1,7 +1,3 @@
-Aquí tienes el archivo **README.md** completo y final, integrando la estructura profesional, el análisis de tu proyecto y las secciones de código acopladas para cumplir con los estándares de excelencia de la asignatura.
-
----
-
 # Sistema de Recuperación Multimodal de Información para E-commerce
 
 <p align="center">
